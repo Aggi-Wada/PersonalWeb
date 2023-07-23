@@ -97,7 +97,7 @@ body{
     margin: 0 2px;
     flex-basis: 280px;
     /* transform: translatey(10px); */
-    background-image: url(/img/orangebtn.png);
+    background-image: url(img/orangebtn.png);
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -106,7 +106,7 @@ body{
 }
 
 .top li:nth-child(2){
-    background-image: url(/img/yellowbtn.png);
+    background-image: url(img/yellowbtn.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -114,11 +114,11 @@ body{
 .top li:hover{
     transform: translatey(-5px);
     transform: scale(1.05);
-    background-image: url(/img/orangeshinebtn.png);
+    background-image: url(img/orangeshinebtn.png);
 }
 
 .top li:nth-child(2):hover{
-    background-image: url(/img/yellowbtnshine.png);
+    background-image: url(img/yellowbtnshine.png);
 }
 
 
