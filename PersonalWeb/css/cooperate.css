@@ -1,0 +1,237 @@
+@import url(reset.css);
+
+body{
+    font-family: Arial,'STHeitiTC-Light';
+    background-color: rgb(244, 245, 232);
+    font-size: 18px;
+    line-height: 1.6;
+    background-image: url(../img/body_bg.png);
+}
+
+/* .wrapper{
+    width: 1250px;
+    margin: 0 auto;
+} */
+
+.top{
+    background-color: #fff;
+    width: 100%;
+    height: 130px;
+    background-image: url(../img/TOP_bg.png);
+    filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.4));
+}
+
+.topMain{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.topMain img{
+    width: 280px;
+    /* background-color: aquamarine; */
+    float: left;
+}
+
+.topMain .nav{
+    float: right;
+    margin: 0 10px;
+}
+
+.topMain .nav li{
+    float: left;
+}
+
+.topMain .nav li a{
+    border-left: 2px solid #888;
+    padding: 0 15px;
+    line-height: 130px;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.topMain .nav li:first-child a{
+    border-left: 0;
+}
+
+.topMain .nav li a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+
+/* 聯繫窗口 */
+
+.contactUs{
+    width: 1250px;
+    margin: 50px auto;
+}
+
+.contactUs h1{
+    text-align: center;
+    letter-spacing: 20px;
+    text-indent: 25px;
+    height: 100px;
+    line-height: 100px;
+    background-image: url(../img/hotSale_bg.png);
+    filter: drop-shadow(1px 1px 2px rgb(0, 0, 0, .3));
+}
+
+.contactUs .form{
+    width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.contactUs .form li{
+    width: 400px;
+    float: left;
+}
+
+.contactUs .form .name{
+    border: 1px solid rgb(155, 155, 155, .5);
+    border-radius: 5px;
+    height: 50px;
+    width: 380px;
+    font-size: 20px;
+    text-indent: 15px;
+    margin-bottom: 10px;
+}
+.contactUs .form .coNumber{
+    border: 1px solid rgb(155, 155, 155, .5);
+    border-radius: 5px;
+    height: 50px;
+    width: 380px;
+    font-size: 20px;
+    text-indent: 15px;
+    margin-bottom: 10px;
+}
+.contactUs .form .phoneNumber{
+    border: 1px solid rgb(155, 155, 155, .5);
+    border-radius: 5px;
+    height: 50px;
+    width: 380px;
+    font-size: 20px;
+    text-indent: 15px;
+}
+.contactUs .form .email{
+    border: 1px solid rgb(155, 155, 155, .5);
+    border-radius: 5px;
+    height: 50px;
+    width: 380px;
+    font-size: 20px;
+    text-indent: 15px;
+}
+.contactUs textarea{
+    display: block;
+    margin: 0 auto;
+    padding-left: 20px;
+    border: 1px solid rgb(155, 155, 155, .5);
+    border-radius: 5px;
+    height: 100px;
+    width: 500px;
+    font-size: 18px;
+}
+
+.contactUs .sent{
+    display: block;
+    margin: 10px auto;
+    border: 1px solid rgb(155, 155, 155, .5);
+    border-radius: 2px;
+    width: 50px;
+    height: 30px;
+    font-size: 14px;
+    
+}
+
+.contactUs .information{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contactUs .information h2{
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-indent: 15px;
+}
+
+.contactUs .information li p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* 關注我們 */
+
+.followUs{
+    width: 1250px;
+    margin: 50px auto;
+    filter: drop-shadow(1px 1px 2px rgb(0,0,0,.3));
+}
+
+.followUsText{
+    text-align: center;
+    height: 100px;
+    background-color: #fff;
+    background-image: url(../img/hotSale_bg.png);
+}
+
+.followUs h3{
+    text-indent: 30px;
+    line-height: 100px;
+    font-size: 36px;
+    letter-spacing: 30px;
+}
+
+.followUsSocialMedia{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(205, 219, 206);
+    padding: 150px 0;
+    box-sizing: border-box;
+}
+
+.followUsSocialMediaRow{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    /* background-color: #fff; */
+
+}
+
+.followUsSocialMediaRow li{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    margin: 0 25px;
+    border-radius: 50%;
+}
+
+.followUsSocialMediaRow li a{
+    border-radius: 50%;
+}
+
+.followUsSocialMediaRow li a img{
+    border-radius: 50%;
+}
+
+.followUsSocialMediaRow li a img:hover{
+    border-radius: 0;
+    transition: all .5s;
+}
+
+.followUsSocialMediaRow li:first-child{
+    margin-left: 125px;
+}
+
+.companyInf{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    line-height: 40px;
+}
